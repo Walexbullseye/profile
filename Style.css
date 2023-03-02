@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(255, 228, 153);
+    margin-top: 0px;
+    font-family: 'Times New Roman';
+}
+
+header {
+ display: flex;
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ height:50px;
+ line-height:75px;
+ background-color:blueviolet(159, 110,o,110); 
+}
+
+.heading {
+    margin-top: 100px;
+}
+
+.image-main {
+    margin-top: 200px;
+    padding: 0;
+    width: 300px;
+    height: 350px;
+}
+ 
+header  { 
+    display: inline;
+    height: 50px;
+    line-height: 50px;
+} 
+
+header li {
+    padding: 0;
+    display: inline;
+ }  
+
+header  li a:hover{
+    text-transform: uppercase;
+    transition: cubic-bezier(solid);
+    transform-style: inherit;
+    color:rosybrown(247,150,0,858);
+  }   
+  header li a{
+    text-decoration: none;
+    color:black;
+  }
+  header li{
+    margin-left: 20px;
+}
+
+section{
+    height: 100vh;
+    border:1px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#hero .profile-img{
+    width:200px;
+    border-radius: 50px;
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1{
+    font-size:5em;
+}
+
+#href{
+    font-size: 2em;
+}
+ 
+ section h2{
+    font-size: 5em;
+}
+
+section li{
+    font-size:1.5em;
+ }
+ 
+ section br{
+    font-size: 1.5;
+}
+
+section p{
+    font-size:1.5;
+}
+
+section h3{
+    font-size: 1.5em;
+ }  
+  
+ header a{
+    text-decoration:  none;
+    color:blue(40, 35,35);
+}
+
+
+ #hero{
+   background-image:linear-gradient(rgba(245,245,245,))rgba(245,245,255), url('./my picture.jpg')
+
+}
+
+#about{
+    background-image: linear-gradient(rgb(115,116,117))rgb(115,116,117),url('./my picture 2.jpg');
+}
+
+#contact{
+    background-image: linear-gradient(rgb(145,146,147))rgb(145,146,147),url('./my picture 3.jpg')
+}
